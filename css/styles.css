@@ -552,8 +552,7 @@ svg {
   background-color: var(--secondary-background-color);
   border-radius: 4px;
 
-  transition: background-color var(--transition-duration) var(--timing-function), color var(--transition-duration) var(--timing-function),
-    box-shadow var(--transition-duration) var(--timing-function);
+  transition: background-color var(--transition-duration) var(--timing-function), color var(--transition-duration) var(--timing-function), box-shadow var(--transition-duration) var(--timing-function);
 }
 
 .filter-button:hover,
