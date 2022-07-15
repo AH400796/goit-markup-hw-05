@@ -189,7 +189,6 @@ svg {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-  transition: background-color var(--transition-duration) var(--timing-function);
 }
 
 /* Контакти + Підвал */
