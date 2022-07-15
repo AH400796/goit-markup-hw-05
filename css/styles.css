@@ -179,8 +179,7 @@ svg {
   color: var(--accent-color);
 }
 
-.navigation-item.current::after,
-.navigation-item .link::after {
+.navigation-item.current::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -188,18 +187,9 @@ svg {
   content: '';
   width: 100%;
   height: 4px;
-  background-color: transparent;
+  background-color: var(--accent-color);
   border-radius: 2px;
   transition: background-color var(--transition-duration) var(--timing-function);
-}
-
-.navigation-item .link:hover::after,
-.navigation-item .link:focus::after {
-  background-color: var(--accent-color);
-}
-
-.navigation-item.current::after {
-  background-color: var(--accent-color);
 }
 
 /* Контакти + Підвал */
